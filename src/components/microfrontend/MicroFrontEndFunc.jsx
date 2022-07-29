@@ -34,7 +34,7 @@ function MicroFrontend ({
         history: history,
       });
     }
-  });
+  }, [ basePath, buildMode, history, host, microId]);
 
   const parseHost = (host) => {
     let url = new URL(host);
@@ -46,7 +46,7 @@ function MicroFrontend ({
     if (status === 'done') {
       renderMicroFrontend();
     }
-  }, [status]);
+  }, [status, renderMicroFrontend]);
 
   useEffect(() => {
     let baseHost = parseHost(host);
@@ -152,11 +152,7 @@ function MicroFrontend ({
 
   let microModule;
   if (status === 'loading') {
-    microModule = (
-      <div>
-        <p>Cargando...</p>
-      </div>
-    );
+    console.info('loading...')
   } else if (status === 'done') {
     microModule = <div id={`${microId}-container`}></div>;
   } else if (status === 'error') {
