@@ -10,7 +10,7 @@ const StyledAppBody = styled.div`
 `
 
 export default function Content({ children }: AppBodyProps) {
-  return <StyledAppBody>
+  return <StyledAppBody data-testid="app-body">
     {children}
   </StyledAppBody>
 }

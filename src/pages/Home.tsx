@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import Button from "../components/elements/Button";
-import { MenuContainer } from "../components/elements/MenuContainer";
+import MenuContainer from "../components/blocks/MenuContainer";
+import MenuButton from "../components/elements/MenuButton";
 
 
 const Home = () => {
@@ -13,13 +13,13 @@ const Home = () => {
     url: string
   }[] = [
       {
-        image: 'http://3.bp.blogspot.com/_sSkEbHhdKpI/TKvnbLdcWpI/AAAAAAAAA2s/YtKOVuZ4Jyc/s1600/harry+potter.jpg',
-        title: 'harryPotter',
+        image: 'http://wallpapers.net/web/wallpapers/harry-potter-movie-wallpaper-for-desktop-mobiles/thumbnail/lg.jpg',
+        title: 'harryPotterCharacters',
         url: '/harry-potter',
       },
       {
-        image: 'https://i.pinimg.com/originals/cd/64/b5/cd64b55e77d50844e82ebb7fe572d91e.jpg',
-        title: 'rickAndMorty',
+        image: 'https://sm.ign.com/t/ign_es/screenshot/1/1-total-ri/1-total-rickall-s2e4brbrtotal-rickall-truly-captures-everyth_xsay.1080.jpg',
+        title: 'rickAndMortyCharacters',
         url: '/rick-and-morty'
       }
     ]
@@ -28,17 +28,16 @@ const Home = () => {
     <MenuContainer>
       {options.map((item) => {
         return (
-          <Button
+          <MenuButton
             key={item.title}
             onClick={() => navigate(item.url)}
-            center
-            width="50%"
-          >
-            {t('seeCharactersOf') + ' ' + t(`${item.title}`)}
-          </Button>
+            text={t(item.title)}
+            image={item.image}
+          />
         )
       })}
     </MenuContainer>
+
   );
 };
 

@@ -8,7 +8,8 @@ i18n
     resources: {
       es: {
         translation: {
-          seeCharactersOf: 'Ver personajes de',
+          harryPotterCharacters: 'Personajes de Harry Potter',
+          rickAndMortyCharacters: 'Personajes de Rick y Morty',
           goBack: 'Volver',
           harryPotter: 'Harry Potter',
           rickAndMorty: 'Rick y Morty'
@@ -16,7 +17,8 @@ i18n
       },
       en: {
         translation: {
-          seeCharactersOf: 'See characters of',
+          harryPotterCharacters: `Harry Potter's characters`,
+          rickAndMortyCharacters: `Rick and Morty's characters`,
           goBack: 'Go Back',
           harryPotter: 'Harry Potter',
           rickAndMorty: 'Rick and Morty'
