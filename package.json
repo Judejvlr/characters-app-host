@@ -26,9 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start:micro": "set PORT=4000 && react-app-rewired start",
-    "build:micro": "react-app-rewired build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -1,4 +1,4 @@
-# Getting Started with Create Micro-React App
+# Character App Host
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the Micro-Frontend template.
 
@@ -21,14 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm run start:micro`
-
-Runs the app in the microfrontend mode.\
-Open [http://localhost:4000](http://localhost:4000) (by default) to load it from the Main SPA, the view will be blank in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -37,16 +29,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run build:micro`
-
-Builds the app for production to the `build` folder in micro-frontend mode.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
@@ -64,18 +46,21 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### `npm run lint`
-
-Runs eslint to have a consistent coding convention. 
-
-### `npm run format`
-
-Runs prettier formatter.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+Check out the [Micro-Frontend template](https://www.npmjs.com/package/cra-template-microfrontend-typescript).
+
 To learn more about the Main SPA, check out the [Main SPA repo](https://github.com/gabrielcerutti/main-spa).
+
+----
+<div align="center">
+  <img height="150" src="https://github.com/Judejvlr/Judejvlr/blob/e9bd7a9a7650f19d71658d2ce4085a49dbf24db3/JudejvlrTyping.png">
+  <h3> Judelys Lagos | Judejvlr </h3>
+  <h3> Front End Developer | 📍 Venezuela 🇻🇪 </h3>
+</div>
+
+----
